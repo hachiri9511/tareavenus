@@ -1,0 +1,125 @@
+
+    
+body{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/52/408/926/blue-outer-space-colorful-stars-planets-earth-stardust-digital-art-artwork-cosmic-dust-1920x1200-space-planets-hd-art-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment:fixed; 
+    
+}
+header{
+    
+}
+h1{
+    
+    font-size:130px;
+    color: aliceblue;
+    
+}
+p{ 
+    text-align:center;
+    color:bisque;
+    letter-spacing: 3px;
+    word-spacing: 12px;
+    line-height:1.5rem;
+    font-size: 1.5rem;
+}
+
+nav{
+
+}
+.banner{ 
+    display: flex;
+background-color:black;
+height: 300px;
+
+}
+.banner__item{
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    font-size:2.5rem; 
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+}
+.banner__item:hover{
+    flex-grow:10 ;
+    transition: flex-grow 1s;
+}
+.banner__item:hover .banner__title{
+    transform: rotate(0);
+}
+
+.banner__item:nth-child(1){background-color:aqua;}
+.banner__item:nth-child(2){background-color:rgb(28, 28, 210);}
+.banner__item:nth-child(3){background-color:rgb(205, 93, 112);}
+.banner__item:nth-child(4){background-color:rgb(42, 40, 37);}
+.banner__item:nth-child(5){background-color:rgb(72, 15, 15);}
+.banner__item:nth-child(6){background-color:rgb(42, 40, 37);}
+.banner__item:nth-child(7){background-color:rgb(14, 53, 40);}
+.banner__item:nth-child(8){background-color:rgb(140, 140, 249);}
+
+.banner__title{
+    margin:0 ;
+    transform:rotate(-90deg);
+    transition: transform 0.5s 0.s;
+
+}
+
+div a{
+    text-decoration:none;
+    color: aliceblue;
+}
+main{
+    background-attachment:fixed; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.galeria{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 900px;
+    color: aliceblue;
+}
+.galeria:hover{
+    border:1px solid rgb(221, 1, 1);
+}
+.galeria img{
+    width: 100%;
+    height:auto;
+}
+.texto{
+    padding: 15px;
+    text-align:center;
+    font-size: 20px;
+    letter-spacing:3px;
+    word-spacing:5px ;
+    line-height: 4rem;
+}
+.galeria2{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:right;
+    width: 900px;
+    color: aliceblue;
+}
+.galeria2:hover{
+    border:1px solid rgb(221, 1, 1);
+}
+.galeria2 img{
+    width: 100%;
+    height:auto;
+}
+
+footer{
+    
+    background-color: black;
+    color:azure;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding :1em ;
+    
+}

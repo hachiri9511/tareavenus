@@ -1,0 +1,169 @@
+body{
+    background-image: url(http://apod.nasa.gov/apod/image/1501/NGC6726_c80schedler.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:110%;
+    background-position-x:center;
+    background-position-y: center;
+    background-attachment:fixed; 
+    position: relative;
+    padding-bottom:127em ;
+
+}
+header{
+    
+}
+h1{
+    
+    font-size:40px;
+    color: aliceblue;    
+}
+p{ 
+    text-align:left;
+    color:bisque;
+    letter-spacing: 3px;
+    word-spacing: 12px;
+    line-height:1.5rem;
+    font-size: 1.rem;
+}
+
+nav{
+
+}
+.banner{ 
+    display: flex;
+background-color:black;
+height: 300px;
+
+}
+.banner__item{
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    font-size:2.5rem; 
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+}
+.banner__item:hover{
+    flex-grow:10 ;
+    transition: flex-grow 1s;
+}
+.banner__item:hover .banner__title{
+    transform: rotate(0);
+}
+
+.banner__item:nth-child(1){background-color:aqua;}
+.banner__item:nth-child(2){background-color:rgb(28, 28, 210);}
+.banner__item:nth-child(3){background-color:rgb(205, 93, 112);}
+.banner__item:nth-child(4){background-color:rgb(42, 40, 37);}
+.banner__item:nth-child(5){background-color:rgb(72, 15, 15);}
+.banner__item:nth-child(6){background-color:rgb(42, 40, 37);}
+.banner__item:nth-child(7){background-color:rgb(14, 53, 40);}
+.banner__item:nth-child(8){background-color:rgb(140, 140, 249);}
+
+.banner__title{
+    margin:0 ;
+    transform:rotate(-90deg);
+    transition: transform 0.5s 0.s;
+
+}
+.imgmercurio{
+    float:right;
+    border:2px solid; color:aqua;
+    height:auto ;
+    height: 20 px;
+    width: 700px ;
+        
+}
+.merci{font-size:20px;
+    color: aliceblue; 
+    line-height: 2rem;     
+}
+
+
+div a{
+    text-decoration:none;
+    color: aliceblue;
+}
+main{
+    background-attachment:fixed; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.galeria{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 900px;
+    color: aliceblue;
+}
+.galeria:hover{
+    border:1px solid rgb(221, 1, 1);
+}
+.galeria img{
+    width: 100%;
+    height:auto;
+    width: 600px;
+    margin : 0 auto;
+    display : block;
+    
+}
+.texto{
+    padding: 15px;
+    text-align:center;
+    font-size: 20px;
+    letter-spacing:3px;
+    word-spacing:5px ;
+    line-height: 4rem;
+}
+.galeria2{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:right;
+    width: 900px;
+    color: aliceblue;
+}
+.galeria2:hover{
+    border:1px solid rgb(221, 1, 1);
+}
+.galeria2 img{
+    width: 100%;
+    height:auto;
+    width: 600px;
+    margin : 0 auto;
+    display : block;
+    
+}
+ol{
+    
+    
+    color: white;
+    
+    font-size:1rem;   
+    padding:5em; 
+    float: left;
+
+}  
+#enlace{
+    text-decoration: none;
+    color:aqua;
+} 
+
+    
+
+
+
+
+
+
+footer{
+    
+    background-color: black;
+    color:azure;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding :1em ;
+    
+}
